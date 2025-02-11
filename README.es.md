@@ -1,5 +1,5 @@
 <h1 align="center">
- Astro Theme OpenBLOG
+ Sicheng's Blog
 </h1>
 
 <div align="center">
