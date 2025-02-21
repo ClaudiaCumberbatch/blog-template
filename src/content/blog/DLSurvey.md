@@ -3,7 +3,7 @@ title: 'DL Scheduling Survey'
 description: >-
   Paper reading notes of Deep Learning Workload Scheduling in GPU Datacenters: A Survey.
 pubDate: 2025-02-11T22:00:00.000Z
-heroImage: ../../assets/images/bg.jpg
+heroImage: ../../assets/images/paper.png
 category: Paper Reading Notes
 tags:
   - Paper Notes

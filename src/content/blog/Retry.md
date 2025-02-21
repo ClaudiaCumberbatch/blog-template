@@ -3,7 +3,7 @@ title: 'Retry'
 description: >-
   Paper reading notes of If At First You Don’t Succeed, Try, Try, Again...?.
 pubDate: 2025-02-10T22:00:00.000Z
-heroImage: ../../assets/images/bg.jpg
+heroImage: ../../assets/images/paper.png
 category: Paper Reading Notes
 tags:
   - Paper Notes
@@ -12,6 +12,8 @@ tags:
 ---
 
 [If At First You Don’t Succeed, Try, Try, Again...?](https://www.microsoft.com/en-us/research/uploads/prod/2024/08/SOSP_2024__Detecting_Retry_Bugs_in_Software_Systems-1.pdf)
+
+This paper is recommended by my colleague who helped a lot in writing related work in my WRATH paper.
 
 ## Abstract
 

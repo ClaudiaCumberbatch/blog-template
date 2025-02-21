@@ -3,7 +3,7 @@ title: 'DeepSeek Model Training Techniques'
 description: >-
   Paper reading notes of DeepSeek LLM Scaling Open-Source Language Models with Longtermism. Focus on accelaration techniques in system level.
 pubDate: 2025-02-13T22:00:00.000Z
-heroImage: ../../assets/images/bg.jpg
+heroImage: ../../assets/images/paper.png
 category: Paper Reading Notes
 tags:
   - Paper Notes
