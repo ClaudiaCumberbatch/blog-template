@@ -1,7 +1,7 @@
 ---
 title: 'DeepSeek Model Training Techniques'
 description: >-
-  Paper reading notes of DeepSeek LLM Scaling Open-Source Language Models with Longtermism. Focus on accelaration techniques in system level.
+  Paper reading notes of DeepSeek LLM Scaling Open-Source Language Models with Longtermism. Focus on acceleration techniques in system level.
 pubDate: 2025-02-13T22:00:00.000Z
 heroImage: ../../assets/images/paper.png
 category: Paper Reading Notes
@@ -17,9 +17,9 @@ We use an efficient and light-weight training framework named HAI-LLM (High-flye
 
 ## Parallelism
 
-1. **Data parallelism**. The dataset is splitted into mini-batches and each of them is scheduled to different device.
+1. **Data parallelism**. The dataset is split into mini-batches and each of them is scheduled to different device.
 2. **Tensor parallelism**. The parameters of a single layer of the model, such as the fully connected layer or the attention layer, are split across multiple devices. Each device calculates only part of the output and then merges the results through communication operations.
-3. **Sequence parallelism**. Long sequence input is splitted into multiple subsequences which are assigned to different devices. Each device processes only part of the sequence and finally combines the results through communication operations.
+3. **Sequence parallelism**. Long sequence input is split into multiple subsequences which are assigned to different devices. Each device processes only part of the sequence and finally combines the results through communication operations.
 4. **1F1B pipeline parallelism**. 1F1B (One Forward pass followed by One Backward pass). It distributes the different layers of the model to different devices, forming a pipeline. Each device performs forward propagation and back propagation in turn, and micro-batches are used to maintain pipeline continuity.
 
 In conclusion:

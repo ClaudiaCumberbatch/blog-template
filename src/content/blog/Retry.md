@@ -26,7 +26,7 @@ Contribution: Propose techniques to detect retry problems in software. (sounds v
 Motivation:
 
 - Retry is commonly under-tested.
-- Retry is challenging to implement. In policy-level, we do not know whether a task is worth retry and when to retry. In machanism-level, we do not know how a task should retry (DAG and atomic task definition can work).
+- Retry is challenging to implement. In policy-level, we do not know whether a task is worth retry and when to retry. In mechanism-level, we do not know how a task should retry (DAG and atomic task definition can work).
 - Current retry frameworks cannot solve all problems. They only support simple retry.
 - Retry is hard to test. (I strongly agree to this! I spent a lot of time in simulating transient failures in my resilience project and always feel that the simulation system I designed is rough.)
 

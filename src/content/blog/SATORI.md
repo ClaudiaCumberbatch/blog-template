@@ -12,6 +12,8 @@ tags:
 
 [SATORI: Efficient and Fair Resource Partitioning by Sacrificing Short-Term Benefits for Long-Term Gains](https://github.com/rohanbasuroy/satori)
 
+This paper is written by my potential advisor.
+
 ## Introduction
 
 Background: Co-locating workloads can improve resource utilization.
@@ -38,7 +40,7 @@ $y$ axis: difference in performance of different resources partition configurati
 
 $x$ axis: different time period.
 
-From (a) and (b): The difference in throughput is the same, but $C_d$ has better fairness. This means we can have net gain in fairness when prioritizing throughput at $\Delta t_1$ and fiarness at $\Delta t_2$.
+From (a) and (b): The difference in throughput is the same, but $C_d$ has better fairness. This means we can have net gain in fairness when prioritizing throughput at $\Delta t_1$ and fairness at $\Delta t_2$.
 
 From (c) and (d): The difference in fairness is the same, but $C_g$ has better throughput. Similar conclusion.
 
@@ -52,7 +54,7 @@ From (c) and (d): The difference in fairness is the same, but $C_g$ has better t
 
 **Objective function**: multiple goals and dynamic.
 
-The proxy model and the acquisition function is basically from traditional BO. The fun part lies in the dynamic objective function. SATORI does this by maintaining records of different goals seperately and construct the final objective function by combing these two goals using weights. The system considers both equalization and prioritization.
+The proxy model and the acquisition function is basically from traditional BO. The fun part lies in the dynamic objective function. SATORI does this by maintaining records of different goals separately and construct the final objective function by combing these two goals using weights. The system considers both equalization and prioritization.
 
 ![Fig.5](./SATORI/fig5.png)
 
